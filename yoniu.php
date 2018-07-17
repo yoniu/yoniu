@@ -1,0 +1,1 @@
+<?php return '{"emMsg":"success","header":"https:\\/\\/img.t.sinajs.cn\\/t5\\/skin\\/public\\/profile_cover\\/070.jpg","background":"","navico":"glyphicon glyphicon-globe"}';
