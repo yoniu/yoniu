@@ -52,7 +52,7 @@ $(function() {
 		return false
 	})
 	
-	if(document.getElementById("#pagenavi .next")) {}else{$("#pagenavi").attr("style","display:none");}
+	if($("#pagenavi .next").length > 0) {}else{$("#pagenavi").attr("style","display:none");}
 	
 	$("#pagenavi").on('click','a', function(){     
 	    $(this).attr("style","display:none");
