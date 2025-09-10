@@ -21,6 +21,7 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@unocss/cli": "^66.5.1",
     "dayjs": "^1.11.18",
     "markdown-it": "^14.1.0",

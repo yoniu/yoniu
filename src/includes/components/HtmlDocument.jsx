@@ -21,7 +21,7 @@ export default function HtmlDocument({ children, title = site.title, description
         <div className="text-center text-gray-500 bg-black text-white px-4 py-12 mt-8 -ml-4 -mr-4 -mb-4">
           Copyright © 2014 - {new Date().getFullYear()} {site.title}.
         </div>
-        <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=3NOogOvs3Bj3ldL6&ck=3NOogOvs3Bj3ldL6&autoTrack=true"></script>
+        <script charSet="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=3NOogOvs3Bj3ldL6&ck=3NOogOvs3Bj3ldL6&autoTrack=true"></script>
       </body>
     </html>
   );

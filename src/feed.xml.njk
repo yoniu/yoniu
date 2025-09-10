@@ -1,0 +1,25 @@
+---
+permalink: rss.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+    {% set posts = collections.all | articleOnly %}
+<rss version="2.0">
+  <channel>
+    <title>油老师</title>
+    <link>{{ metadata.url }}</link>
+    <description>最新文章 RSS</description>
+    <language>zh-CN</language>
+    <lastBuildDate>{{ posts[0].data.datePublished | toDate | dateToRfc822 }}</lastBuildDate>
+
+    {% for post in posts %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ metadata.url }}{{ post.url }}</link>
+      <guid>{{ metadata.url }}{{ post.url }}</guid>
+      <pubDate>{{ post.data.datePublished | toDate | dateToRfc822 }}</pubDate>
+      <description><![CDATA[{{ post.templateContent | safe }}]]></description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

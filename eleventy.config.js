@@ -1,7 +1,11 @@
 import "tsx/esm";
 import { renderToStaticMarkup } from "react-dom/server";
+
 import MarkdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
+
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import dayjs from "dayjs";
 
 const md = new MarkdownIt({
   html: true,
@@ -29,7 +33,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.setTemplateFormats([
     "md",
     "11ty.jsx",
-    "11ty.tsx"
+    "11ty.tsx",
+    "njk"
   ]);
   
   eleventyConfig.addFilter("splitTags", function (value) {
@@ -59,4 +64,16 @@ export default async function(eleventyConfig) {
 			};
 		},
 	});
+
+  eleventyConfig.addFilter("toDate", function (value) {
+    if (!value) return;
+    return dayjs(value).format("YYYY-MM-DDTHH:mm:ss.sssZ");
+  });
+
+  eleventyConfig.addFilter("dateToRfc822", pluginRss.dateToRfc822);
+
+  eleventyConfig.addFilter("articleOnly", function (value) {
+    if (!value) return;
+    return value.filter(item => item.data.cuid);
+  });
 };
