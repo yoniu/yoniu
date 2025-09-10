@@ -9,3 +9,22 @@
 
 - 11ty
 - React
+- UnoCSS
+- Node
+
+## 项目脚本
+
+### 开发
+
+```bash
+# 11ty
+pnpm dev
+# UnoCSS
+pnpm dev:css
+```
+
+### 创建文章
+
+```bash
+pnpm new
+```

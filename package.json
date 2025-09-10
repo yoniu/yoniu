@@ -7,7 +7,8 @@
     "build:css": "unocss \"src/**/*.{html,md,11ty.jsx,jsx,js,ts,tsx}\" -o ./public/styles/unocss.css",
     "build": "npm run build:css && npx @11ty/eleventy",
     "dev:css": "unocss \"src/**/*.{html,md,11ty.jsx,jsx,js,ts,tsx}\" -o ./public/styles/unocss.css --watch",
-    "dev": "npx @11ty/eleventy --watch --serve"
+    "dev": "npx @11ty/eleventy --watch --serve",
+    "new": "node ./scripts/createArticle.js"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "@unocss/cli": "^66.5.1",
     "dayjs": "^1.11.18",
     "markdown-it": "^14.1.0",
+    "nanoid": "^5.1.5",
     "tsx": "^4.20.5"
   }
 }
