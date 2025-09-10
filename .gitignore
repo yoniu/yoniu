@@ -2,3 +2,5 @@ dist
 node_modules
 .DS_Store
 public/styles/unocss.css
+
+env.config.js

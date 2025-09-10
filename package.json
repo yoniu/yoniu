@@ -8,7 +8,8 @@
     "build": "npm run build:css && npx @11ty/eleventy",
     "dev:css": "unocss \"src/**/*.{html,md,11ty.jsx,jsx,js,ts,tsx}\" -o ./public/styles/unocss.css --watch",
     "dev": "npx @11ty/eleventy --watch --serve",
-    "new": "node ./scripts/createArticle.js"
+    "new": "node ./scripts/createArticle.js",
+    "upload": "node ./scripts/upload/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
   "jsx": "react-jsx",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
+    "ali-oss": "^6.23.0",
     "markdown-it-attrs": "^4.3.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"

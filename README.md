@@ -23,6 +23,24 @@ pnpm dev
 pnpm dev:css
 ```
 
+### 变量
+
+```js
+// ./env.config.js
+
+// 阿里云 oss
+export const alioss = {
+  accessKeyId: "",
+  accessKeySecret: '',
+  region: '',
+  authorizationV4: true,
+  bucket: '',
+  endpoint: '',
+  folder: '', // 上传到指定文件夹
+  domain: '' // 外网访问域名
+}
+```
+
 ### 创建文章
 
 ```bash
