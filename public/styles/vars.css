@@ -1,3 +1,11 @@
 :root {
   --themecolor: rgb(0,113,227);
 }
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
