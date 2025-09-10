@@ -8,7 +8,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
 	eleventyConfig.setOutputDirectory("dist");
   eleventyConfig.setIncludesDirectory("includes");
-  eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPassthroughCopy({ "public": "/" });
 
   // 👇 设置只保留 md / jsx / tsx，不要 liquid
   eleventyConfig.setTemplateFormats([

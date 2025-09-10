@@ -4,8 +4,10 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "dev": "npx @11ty/eleventy --watch"
+    "build:css": "unocss \"src/**/*.{html,md,11ty.jsx,jsx,js,ts,tsx}\" -o ./public/styles/unocss.css",
+    "build": "npm run build:css && npx @11ty/eleventy",
+    "dev:css": "unocss \"src/**/*.{html,md,11ty.jsx,jsx,js,ts,tsx}\" -o ./public/styles/unocss.css --watch",
+    "dev": "npx @11ty/eleventy --watch --serve"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +20,8 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@unocss/cli": "^66.5.1",
+    "dayjs": "^1.11.18",
     "markdown-it": "^14.1.0",
     "tsx": "^4.20.5"
   }
