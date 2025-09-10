@@ -4,14 +4,17 @@ import HtmlDocument from '../components/HtmlDocument.jsx';
 import Header from '../components/Header.jsx';
 import dayjs from "dayjs";
 import Cover from '../components/Cover.jsx';
+import formatContent from '../utils/formatContent.js';
 
 export default function ArticleLayout(data) {
 
   const { content, title, datePublished, cover } = data;
   const time = dayjs(datePublished).format("YYYY-MM-DD HH:mm:ss");
 
+  const description = formatContent(content);
+
   return (
-    <HtmlDocument title={title}>
+    <HtmlDocument title={title} description={description}>
       <div className="w-full max-w-5xl mx-auto space-y-4">
         <Header />
         <div className="border-gray-200 border-b-1 border-b-solid"></div>

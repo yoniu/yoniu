@@ -6,7 +6,9 @@ export default function Header() {
 
   return (
     <header className="flex items-center gap-4 text-xl mb-4">
-      <h1 className="text-3xl m-0">{ site.title }</h1>
+      <h1 className="text-3xl m-0" title={site.title}>
+        <a href="/">{ site.title }</a>
+      </h1>
       <h2 className="text-3xl text-gray-500 font-thin m-0 hidden md:block">{ site.description }</h2>
       <nav className="flex-1 flex items-center justify-end gap-4 w-full">
         {
