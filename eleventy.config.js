@@ -10,6 +10,16 @@ export default async function(eleventyConfig) {
   eleventyConfig.setIncludesDirectory("includes");
   eleventyConfig.addPassthroughCopy({ "public": "/" });
 
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    layout: data => {
+      // 仅对 articles 目录生效
+      if (data.page.inputPath.includes("/src/articles/")) {
+        return "layout/article.11ty.jsx";
+      }
+      return data.layout || "layout/main.11ty.jsx"; // 其他页面保留原 layout
+    }
+  });
+
   // 👇 设置只保留 md / jsx / tsx，不要 liquid
   eleventyConfig.setTemplateFormats([
     "md",

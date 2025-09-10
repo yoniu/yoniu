@@ -1,7 +1,6 @@
 import React from "react";
 
 import HtmlDocument from '../components/HtmlDocument.jsx';
-import App from '../components/App.jsx';
 
 export default function MainLayout(data) {
 
@@ -9,10 +8,10 @@ export default function MainLayout(data) {
 
   return (
     <HtmlDocument title={title}>
-      <App>
+      <div className="w-full max-w-5xl mx-auto">
         <h1>{ title }</h1>
         <div dangerouslySetInnerHTML={{ __html: content }} />
-      </App>
+      </div>
     </HtmlDocument>
   )
 }
