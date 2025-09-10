@@ -3,6 +3,7 @@ import React from "react";
 import HtmlDocument from './includes/components/HtmlDocument.jsx';
 import App from './includes/components/App.jsx';
 import PostList from './includes/components/PostList/index.jsx';
+import Header from './includes/components/Header.jsx';
 
 export default function Index(data) {
 
@@ -13,7 +14,7 @@ export default function Index(data) {
   return (
     <HtmlDocument>
       <App>
-        <h1>Hello World</h1>
+        <Header />
         <PostList posts={posts} />
       </App>
     </HtmlDocument>
