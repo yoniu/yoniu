@@ -13,7 +13,7 @@ export default function Sticky({ post }) {
   dayjs.extend(relativeTime);
 
   return (
-    <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4 bg-white rounded-2xl mt-8 mb-6 group/post-item hover:shadow-lg transition-all duration-300 overflow-hidden">
+    <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4 bg-white rounded-2xl mt-8 mb-6 group/post-item overflow-hidden">
       {/* 左侧 */}
       <div className="relative overflow-hidden aspect-video sm:aspect-[1.5] bg-gray-100">
         <img className="w-full h-full object-cover group-hover/post-item:scale-105 transition-all duration-300" src={post.data.cover} alt={post.data.title} />
