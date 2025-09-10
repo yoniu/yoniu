@@ -6,6 +6,7 @@ datePublished: Thu Oct 31 2024 08:02:04 GMT+0000 (Coordinated Universal Time)
 cuid: cm2x0ozrc00000akub3vp72cv
 permalink: /homepage-2024/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730361747930/97b8bd10-c6bb-4afc-861f-0d19eaf0fc15.png
+tags: ['sticky']
 
 ---
 

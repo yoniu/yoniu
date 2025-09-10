@@ -15,6 +15,7 @@ export default function HtmlDocument({ children, title = site.title, description
         <link rel="stylesheet" href="/styles/reset.css" />
         <link rel="stylesheet" href="/styles/drake-jb.css" />
         <link rel="stylesheet" href="/styles/unocss.css" />
+        <link rel="stylesheet" href="/styles/vars.css" />
       </head>
       <body className="bg-[#f5f5f7] m-0 p-4">
         {children}
