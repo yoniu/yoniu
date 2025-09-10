@@ -18,6 +18,9 @@ export default function HtmlDocument({ children, title = site.title, description
       </head>
       <body className="bg-[#f5f5f7] m-0 p-4">
         {children}
+        <div className="text-center text-gray-500 bg-black text-white px-4 py-12 mt-8 -ml-4 -mr-4 -mb-4">
+          Copyright © 2014 - {new Date().getFullYear()} {site.title}.
+        </div>
       </body>
     </html>
   );
