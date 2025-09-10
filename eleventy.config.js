@@ -2,7 +2,11 @@ import "tsx/esm";
 import { renderToStaticMarkup } from "react-dom/server";
 import MarkdownIt from "markdown-it";
 
-const md = new MarkdownIt();
+const md = new MarkdownIt({
+  html: true,
+  breaks: true,
+  linkify: true,
+});
 
 export default async function(eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
