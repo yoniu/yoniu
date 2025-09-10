@@ -134,6 +134,6 @@ func TestLogin(t *testing.T) {
 
 输出如下：
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685778892311/6b1ea791-caf1-4f5a-8ee3-1e31ed3b04fc.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685778892311/6b1ea791-caf1-4f5a-8ee3-1e31ed3b04fc.png){align=center}
 
 代码思路：[说透 Redis7：第 9 篇](https://s.juejin.cn/ds/UXenBj9/)

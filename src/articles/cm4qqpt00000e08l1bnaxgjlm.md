@@ -198,7 +198,7 @@ export default function ActionObjects() {
 
 ## 效果展示
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1734337284441/34c53034-c712-4224-883b-fe76ff5d910a.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1734337284441/34c53034-c712-4224-883b-fe76ff5d910a.gif){align=center}
 
 ## 结语
 

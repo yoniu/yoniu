@@ -14,7 +14,7 @@ tags: flutter
 
 小册链接：[https://s.juejin.cn/ds/iLosUrkS/](https://s.juejin.cn/ds/iLosUrkS/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1706952334977/509a5be5-935d-4ac4-9f6d-f225efc39d92.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1706952334977/509a5be5-935d-4ac4-9f6d-f225efc39d92.png){align=center}
 
 ## 网络图片 CircleAvatar 组件
 

@@ -1,12 +1,13 @@
 import "tsx/esm";
 import { renderToStaticMarkup } from "react-dom/server";
 import MarkdownIt from "markdown-it";
+import markdownItAttrs from "markdown-it-attrs";
 
 const md = new MarkdownIt({
   html: true,
   breaks: true,
   linkify: true,
-});
+}).use(markdownItAttrs);
 
 export default async function(eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
@@ -20,7 +21,7 @@ export default async function(eleventyConfig) {
       if (data.page.inputPath.includes("/src/articles/")) {
         return "layout/article.11ty.jsx";
       }
-      return data.layout || "layout/main.11ty.jsx"; // 其他页面保留原 layout
+      return data.layout || null; // 其他页面保留原 layout
     }
   });
 

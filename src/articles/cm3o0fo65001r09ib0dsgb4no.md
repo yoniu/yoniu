@@ -41,10 +41,10 @@ todo..
 
 ## 游戏画面
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993648495/7b0b8073-f9f6-4183-9d45-839d5ff07b83.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993648495/7b0b8073-f9f6-4183-9d45-839d5ff07b83.png){align=center}
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993621215/eb0665c0-09d5-45d3-a43d-3a8602fd04a3.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993621215/eb0665c0-09d5-45d3-a43d-3a8602fd04a3.png){align=center}
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993629271/e13de825-10ba-4303-986c-532f50b681e6.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993629271/e13de825-10ba-4303-986c-532f50b681e6.png){align=center}
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993636574/982a7e7b-1fe6-4d2a-9afd-aa404c647ee3.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993636574/982a7e7b-1fe6-4d2a-9afd-aa404c647ee3.png){align=center}

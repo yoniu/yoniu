@@ -10,6 +10,6 @@ tags: axure
 
 ## 效果展示
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673965825490/51027f5a-2853-440f-82e6-a0717500ed51.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673965825490/51027f5a-2853-440f-82e6-a0717500ed51.png){align=center}
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673965848017/8c2a86e5-9e6b-4672-aa77-f082d86635df.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673965848017/8c2a86e5-9e6b-4672-aa77-f082d86635df.png){align=center}

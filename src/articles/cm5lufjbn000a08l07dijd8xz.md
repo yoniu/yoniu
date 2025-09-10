@@ -91,4 +91,4 @@ CSS2DRenderer 是 CSS3DRenderer 的简化版，它们可以直接将 DOM 元素�
 
 其中移入物体显示的标签为 CSS2DRenderer，物体上的数据显示为 CanvasTexture。
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1736219326273/0251b902-6b60-48ae-8374-85df83db5e66.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1736219326273/0251b902-6b60-48ae-8374-85df83db5e66.gif){align=center}
