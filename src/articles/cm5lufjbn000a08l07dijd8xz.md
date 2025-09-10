@@ -4,7 +4,7 @@ seoTitle: "react + threejs 实时数据显示与更新"
 seoDescription: "react + threejs 实现 mqtt / websocket 数据实时渲染与更新，实现方式有 CSS2DRenderer、CSS3DRenderer、CanvasTexture、Text Geometry"
 datePublished: Tue Jan 07 2025 02:20:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm5lufjbn000a08l07dijd8xz
-slug: react-threejs2
+permalink: /react-threejs2/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/DEga33BYvmA/upload/f5ffc3a62f76ae51367e4e2131c3d80a.jpeg
 tags: ['reactjs', 'threejs']
 

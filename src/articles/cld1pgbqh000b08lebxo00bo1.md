@@ -2,7 +2,7 @@
 title: "Phaser3 + Vue2：迷宫探险——诡计森林"
 datePublished: Wed Jan 18 2023 13:33:54 GMT+0000 (Coordinated Universal Time)
 cuid: cld1pgbqh000b08lebxo00bo1
-slug: seig-game1
+permalink: /seig-game1/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674047023146/f1b5a53a-60e9-45b5-a17b-31499defda28.png
 tags: ['vuejs', 'phaser', 'typescript']
 

@@ -2,7 +2,7 @@
 title: "Unity2D：摘星星"
 datePublished: Tue Jan 17 2023 14:40:40 GMT+0000 (Coordinated Universal Time)
 cuid: cld0cec5k000109jvgbo59aml
-slug: unity2d-zxx
+permalink: /unity2d-zxx/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673966072587/c465f6db-1236-44df-9707-ffeb23758ca1.png
 tags: unity
 

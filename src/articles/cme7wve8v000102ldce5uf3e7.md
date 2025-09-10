@@ -4,7 +4,7 @@ seoTitle: "Vue 中实现文章短代码教程"
 seoDescription: "Learn how to implement article shortcodes in Vue, transforming Markdown to HTML, and creating Vue components for dynamic content insertion"
 datePublished: Tue Aug 12 2025 02:17:18 GMT+0000 (Coordinated Universal Time)
 cuid: cme7wve8v000102ldce5uf3e7
-slug: shortcode-how-to-work-in-vue
+permalink: /shortcode-how-to-work-in-vue/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/glmeeU0zabw/upload/c7956719f79c723875508826bf5527ba.jpeg
 tags: ['markdown', 'vuejs', 'mdx']
 

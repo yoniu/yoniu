@@ -2,7 +2,7 @@
 title: "游戏毕设《凡人修仙》"
 datePublished: Tue Nov 19 2024 05:24:36 GMT+0000 (Coordinated Universal Time)
 cuid: cm3o0fo65001r09ib0dsgb4no
-slug: frxx2023
+permalink: /frxx2023/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731993328169/79b48aa7-b712-4972-bbfc-83343dc7b950.png
 tags: ['webpack', 'vuejs', 'phaser', 'typescript']
 

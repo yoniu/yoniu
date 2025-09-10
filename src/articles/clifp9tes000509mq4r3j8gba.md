@@ -2,7 +2,7 @@
 title: "Go 简易登陆功能：go-redis Hash"
 datePublished: Sat Jun 03 2023 07:56:09 GMT+0000 (Coordinated Universal Time)
 cuid: clifp9tes000509mq4r3j8gba
-slug: go-login-go-redis-hash
+permalink: /go-login-go-redis-hash/index.html
 tags: ['go', 'redis']
 
 ---

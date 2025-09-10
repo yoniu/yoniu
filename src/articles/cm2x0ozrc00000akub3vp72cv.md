@@ -4,7 +4,7 @@ seoTitle: "全新个性主页设计"
 seoDescription: "文章探讨了使用 React18 重新设计个人主页，并比较了两种部署方式：Coding 和 Cloudflare Pages。"
 datePublished: Thu Oct 31 2024 08:02:04 GMT+0000 (Coordinated Universal Time)
 cuid: cm2x0ozrc00000akub3vp72cv
-slug: homepage-2024
+permalink: /homepage-2024/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730361747930/97b8bd10-c6bb-4afc-861f-0d19eaf0fc15.png
 
 ---

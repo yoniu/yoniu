@@ -2,7 +2,7 @@
 title: "iTwitter 2 部分后台功能描述"
 datePublished: Fri May 17 2024 10:32:14 GMT+0000 (Coordinated Universal Time)
 cuid: clwajiucq000u09l60bohaahk
-slug: itwitter-2-setting-detail
+permalink: /itwitter-2-setting-detail/index.html
 
 ---
 

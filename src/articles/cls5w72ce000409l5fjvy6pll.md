@@ -2,7 +2,7 @@
 title: "Flutter 实战项目：一言 - 总结"
 datePublished: Sat Feb 03 2024 09:49:19 GMT+0000 (Coordinated Universal Time)
 cuid: cls5w72ce000409l5fjvy6pll
-slug: flutter-yiyan-summary
+permalink: /flutter-yiyan-summary/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/npxXWgQ33ZQ/upload/6ab92aa8c158611ed0008df9b48487e0.jpeg
 tags: flutter
 

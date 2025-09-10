@@ -2,7 +2,7 @@
 title: "Vue-i18n 踩坑"
 datePublished: Sun Mar 17 2024 16:44:33 GMT+0000 (Coordinated Universal Time)
 cuid: cltvqyoaw000209ldavrt7ufz
-slug: vue-i18n-my-false-1
+permalink: /vue-i18n-my-false-1/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/IYm2PCy0f8c/upload/6b159578d4531530d9430e43289c828f.jpeg
 tags: ['vuejs', 'i18n']
 

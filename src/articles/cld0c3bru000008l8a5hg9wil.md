@@ -2,7 +2,7 @@
 title: "Lalachannel"
 datePublished: Tue Jan 17 2023 14:32:07 GMT+0000 (Coordinated Universal Time)
 cuid: cld0c3bru000008l8a5hg9wil
-slug: lalachannel
+permalink: /lalachannel/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673965427056/dddc56b1-f855-4c2c-80bb-dfa5c0fa1917.jpeg
 tags: axure
 

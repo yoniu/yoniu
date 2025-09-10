@@ -2,7 +2,7 @@
 title: "Flutter 入门：猜数字项目总结"
 datePublished: Wed Jan 31 2024 14:43:04 GMT+0000 (Coordinated Universal Time)
 cuid: cls1wd9e1000a09i6ecph8jcg
-slug: flutter-startup-summary-guessing
+permalink: /flutter-startup-summary-guessing/index.html
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/iOF6Vy0C8lE/upload/ef028f317c02d04f95071d7a70ee4682.jpeg
 tags: flutter
 
