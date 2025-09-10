@@ -18,6 +18,9 @@ importers:
         specifier: ^19.1.1
         version: 19.1.1(react@19.1.1)
     devDependencies:
+      markdown-it:
+        specifier: ^14.1.0
+        version: 14.1.0
       tsx:
         specifier: ^4.20.5
         version: 4.20.5
