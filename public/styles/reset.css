@@ -19,3 +19,8 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+iframe {
+  border: none;
+  box-shadow: none;
+}

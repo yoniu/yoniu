@@ -12,17 +12,17 @@ export default function ArticleLayout(data) {
 
   return (
     <HtmlDocument title={title}>
-      <div className="w-full max-w-5xl mx-auto">
+      <div className="w-full max-w-5xl mx-auto space-y-4">
         <Header />
-        <div className="border-gray-200 border-b-1 border-b-solid mb-4"></div>
+        <div className="border-gray-200 border-b-1 border-b-solid"></div>
         {
           cover && (
             <Cover image={cover} />
           )
         }
-        <h1 className="text-3xl font-bold mb-4">{ title }</h1>
-        <time className="text-gray-500 text-sm mb-4">{ time }</time>
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+        <h1 className="text-3xl font-bold mb-2!">{ title }</h1>
+        <time className="text-gray-500 text-sm">{ time }</time>
+        <div className="markdown-body" dangerouslySetInnerHTML={{ __html: content }} />
       </div>
     </HtmlDocument>
   )
