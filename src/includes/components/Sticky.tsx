@@ -19,7 +19,7 @@ export default function Sticky({ post }) {
         <img className="w-full h-full object-cover group-hover/post-item:scale-105 transition-all duration-300" src={post.data.cover} alt={post.data.title} />
       </div>
       {/* 右侧 */}
-      <div className="flex flex-col justify-center p-2 sm:p-4 space-y-2 sm:space-y-4">
+      <div className="flex flex-col justify-center p-6 space-y-2 sm:space-y-4">
         <a className="text-gray-900 decoration-none" href={post.url}>
           <h2 className={
             cn(
@@ -28,7 +28,10 @@ export default function Sticky({ post }) {
           }>{post.data.title}</h2>
         </a>
         <p className="flex items-center text-gray-500 m-0">{formatContent(post.content)}...</p>
-        <time className="text-gray-500" dateTime={post.data.datePublished}>{dayjs(post.data.datePublished).fromNow()}</time>
+        <time className="text-gray-500 space-x-1" dateTime={post.data.datePublished}>
+          <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M469.333333 85.333333a426.666667 426.666667 0 1 0 426.666667 426.666667A426.666667 426.666667 0 0 0 469.333333 85.333333z m0 768a341.333333 341.333333 0 1 1 341.333334-341.333333 341.333333 341.333333 0 0 1-341.333334 341.333333z m132.266667-314.453333L512 487.253333V298.666667a42.666667 42.666667 0 0 0-85.333333 0v218.453333a27.733333 27.733333 0 0 0 2.133333 8.533333 37.973333 37.973333 0 0 0 3.413333 7.253334 36.693333 36.693333 0 0 0 4.266667 6.826666l6.826667 5.546667 3.84 3.84 110.933333 64a42.666667 42.666667 0 0 0 21.333333 5.546667 42.666667 42.666667 0 0 0 21.333334-79.786667z"></path></svg>
+          <span>{dayjs(post.data.datePublished).fromNow()}</span>
+        </time>
       </div>
       {/* 置顶图标 */}
       <div className="absolute bottom-4 right-4 text-black/15 group-hover/post-item:text-black/50 transition-all duration-300">
