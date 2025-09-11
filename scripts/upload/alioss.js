@@ -33,7 +33,7 @@ export default function useAlioss() {
    */
   async function put(fileName, filePath) {
     const curDate = `${new Date().getFullYear()}${new Date().getMonth() + 1}`
-    const lastPath = path.join(folder, curDate, fileName);
+    const lastPath = [folder, curDate, fileName].join('/');
 
     try {
       const result = await client.put(
