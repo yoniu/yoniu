@@ -2,7 +2,7 @@
 title: "重写博客系统，举家搬迁 EdgeOne"
 datePublished: 1757554815359
 cuid: C4V6rA8WHmeoQuK0NQc0Z
-permalink: /2025-09-11
+permalink: /2025-09-11/index.html
 cover: 
 tags: []
 ---
