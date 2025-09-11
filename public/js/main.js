@@ -1,5 +1,6 @@
 window.onload = function() {
   loadTwikoo()
+  loadHighlight()
 }
 
 /**
@@ -12,4 +13,13 @@ function loadTwikoo() {
     el: '#tcomment',
     path,
   });
+}
+
+/**
+ * 加载 highlight
+ */
+function loadHighlight() {
+  if (hljs) {
+    hljs.highlightAll();
+  }
 }

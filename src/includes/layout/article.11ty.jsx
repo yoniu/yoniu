@@ -31,6 +31,8 @@ export default function ArticleLayout(data) {
         <div id="tcomment"></div>
       </div>
       <script src="/js/twikoo.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
       <script src="/js/main.js"></script>
     </HtmlDocument>
   )
