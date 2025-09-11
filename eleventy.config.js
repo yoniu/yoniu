@@ -76,4 +76,9 @@ export default async function(eleventyConfig) {
     if (!value) return;
     return value.filter(item => item.data.cuid);
   });
+
+  eleventyConfig.addFilter("sortByDate", function (value) {
+    if (!value) return;
+    return value.sort((a, b) => new Date(b.data.datePublished) - new Date(a.data.datePublished));
+  });
 };

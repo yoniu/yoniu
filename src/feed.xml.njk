@@ -3,20 +3,25 @@ permalink: rss.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-    {% set posts = collections.all | articleOnly %}
+    {% set posts = collections.all | articleOnly | sortByDate %}
 <rss version="2.0">
   <channel>
-    <title>油老师</title>
-    <link>{{ metadata.url }}</link>
-    <description>最新文章 RSS</description>
+    <title>
+    <![CDATA[ 油老师 ]]>
+    </title>
+    <description>
+    <![CDATA[ 前端工程师，Phaser 游戏开发，Vue 开发，React 开发，Unity 开发 ]]>
+    </description>
+    <link>https://blog.200011.net</link>
+    <generator>RSS for Node</generator>
     <language>zh-CN</language>
     <lastBuildDate>{{ posts[0].data.datePublished | toDate | dateToRfc822 }}</lastBuildDate>
 
     {% for post in posts %}
     <item>
-      <title>{{ post.data.title }}</title>
-      <link>{{ metadata.url }}{{ post.url }}</link>
-      <guid>{{ metadata.url }}{{ post.url }}</guid>
+      <title><![CDATA[ {{ post.data.title }} ]]></title>
+      <link>https://blog.200011.net{{ post.url }}</link>
+      <guid isPermaLink="true">https://blog.200011.net{{ post.url }}</guid>
       <pubDate>{{ post.data.datePublished | toDate | dateToRfc822 }}</pubDate>
       <description><![CDATA[{{ post.templateContent | safe }}]]></description>
     </item>
