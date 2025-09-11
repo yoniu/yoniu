@@ -26,7 +26,12 @@ export default function ArticleLayout(data) {
         <h1 className="text-3xl font-bold mb-2!">{ title }</h1>
         <time className="text-gray-500 text-sm">{ time }</time>
         <div className="markdown-body" dangerouslySetInnerHTML={{ __html: content }} />
+        <div className="border-gray-200 border-b-1 border-b-solid"></div>
+        <h2 className="text-2xl font-bold my-4!">评论</h2>
+        <div id="tcomment"></div>
       </div>
+      <script src="/js/twikoo.min.js"></script>
+      <script src="/js/main.js"></script>
     </HtmlDocument>
   )
 }
