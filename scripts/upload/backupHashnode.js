@@ -32,7 +32,7 @@ async function main() {
     let content = fs.readFileSync(filePath, "utf-8");
 
     // 匹配 hashnode 图片链接
-    const regex = /https:\/\/cdn\.hashnode\.com\/res\/hashnode\/image\/upload[^\s)"]+/g;
+    const regex = /https:\/\/cdn\.hashnode\.com\/res\/hashnode\/image\/[^\s)"]+/g;
     const matches = content.match(regex);
 
     if (!matches) {

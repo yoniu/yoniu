@@ -5,7 +5,7 @@ seoDescription: "Learn how to implement article shortcodes in Vue, transforming 
 datePublished: Tue Aug 12 2025 02:17:18 GMT+0000 (Coordinated Universal Time)
 cuid: cme7wve8v000102ldce5uf3e7
 permalink: /shortcode-how-to-work-in-vue/index.html
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/glmeeU0zabw/upload/c7956719f79c723875508826bf5527ba.jpeg
+cover: https://blog.oss.200011.net/11ty/20259/1757579559492-c7956719f79c723875508826bf5527ba.jpeg
 tags: ['markdown', 'vuejs', 'mdx']
 
 ---

@@ -5,7 +5,7 @@ seoDescription: "Learn how to effectively integrate React and ThreeJS using obje
 datePublished: Mon Dec 16 2024 07:55:34 GMT+0000 (Coordinated Universal Time)
 cuid: cm4qqpt00000e08l1bnaxgjlm
 permalink: /react-threejs1/index.html
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/PACWvLRNzj8/upload/0d863cb2c5a00361b9f377a6d3572b1f.jpeg
+cover: https://blog.oss.200011.net/11ty/20259/1757579558610-0d863cb2c5a00361b9f377a6d3572b1f.jpeg
 tags: ['reactjs', 'threejs']
 
 ---

@@ -5,7 +5,7 @@ seoDescription: "react + threejs 实现 mqtt / websocket 数据实时渲染与�
 datePublished: Tue Jan 07 2025 02:20:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm5lufjbn000a08l07dijd8xz
 permalink: /react-threejs2/index.html
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/DEga33BYvmA/upload/f5ffc3a62f76ae51367e4e2131c3d80a.jpeg
+cover: https://blog.oss.200011.net/11ty/20259/1757579558877-f5ffc3a62f76ae51367e4e2131c3d80a.jpeg
 tags: ['reactjs', 'threejs']
 
 ---

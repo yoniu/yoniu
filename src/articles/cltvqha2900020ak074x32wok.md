@@ -3,7 +3,7 @@ title: "Vue3 重新渲染单一组件"
 datePublished: Sun Mar 17 2024 16:31:01 GMT+0000 (Coordinated Universal Time)
 cuid: cltvqha2900020ak074x32wok
 permalink: /vue3-auto-update-component/index.html
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mZRCMPbJSPc/upload/f4bb5e19a077c86f87158437a83e9af7.jpeg
+cover: https://blog.oss.200011.net/11ty/20259/1757579558040-f4bb5e19a077c86f87158437a83e9af7.jpeg
 tags: ['vuejs', 'vue3']
 
 ---
