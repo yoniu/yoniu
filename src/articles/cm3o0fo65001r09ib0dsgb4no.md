@@ -3,7 +3,7 @@ title: "游戏毕设《凡人修仙》"
 datePublished: Tue Nov 19 2024 05:24:36 GMT+0000 (Coordinated Universal Time)
 cuid: cm3o0fo65001r09ib0dsgb4no
 permalink: /frxx2023/index.html
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731993328169/79b48aa7-b712-4972-bbfc-83343dc7b950.png
+cover: https://blog.oss.200011.net/11ty/20259/1757579172975-79b48aa7-b712-4972-bbfc-83343dc7b950.png
 tags: ['webpack', 'vuejs', 'phaser', 'typescript']
 
 ---
@@ -41,10 +41,10 @@ todo..
 
 ## 游戏画面
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993648495/7b0b8073-f9f6-4183-9d45-839d5ff07b83.png){align=center}
+![](https://blog.oss.200011.net/11ty/20259/1757579174026-7b0b8073-f9f6-4183-9d45-839d5ff07b83.png){align=center}
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993621215/eb0665c0-09d5-45d3-a43d-3a8602fd04a3.png){align=center}
+![](https://blog.oss.200011.net/11ty/20259/1757579175335-eb0665c0-09d5-45d3-a43d-3a8602fd04a3.png){align=center}
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993629271/e13de825-10ba-4303-986c-532f50b681e6.png){align=center}
+![](https://blog.oss.200011.net/11ty/20259/1757579176364-e13de825-10ba-4303-986c-532f50b681e6.png){align=center}
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731993636574/982a7e7b-1fe6-4d2a-9afd-aa404c647ee3.png){align=center}
+![](https://blog.oss.200011.net/11ty/20259/1757579177320-982a7e7b-1fe6-4d2a-9afd-aa404c647ee3.png){align=center}

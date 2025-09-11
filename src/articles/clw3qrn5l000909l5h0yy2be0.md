@@ -3,7 +3,7 @@ title: "iTwitter 2 前端开发"
 datePublished: Sun May 12 2024 16:20:39 GMT+0000 (Coordinated Universal Time)
 cuid: clw3qrn5l000909l5h0yy2be0
 permalink: /itwitter-2-readme/index.html
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715530617972/d0c3ff5a-d251-4b23-a782-75d489e16dd1.png
+cover: https://blog.oss.200011.net/11ty/20259/1757579171004-d0c3ff5a-d251-4b23-a782-75d489e16dd1.png
 tags: ['webpack', 'vuejs', 'typescript']
 
 ---

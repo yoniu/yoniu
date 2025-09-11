@@ -3,7 +3,7 @@ title: "Ai 实战之狗血微信聊天记录生成"
 datePublished: Tue Aug 26 2025 01:09:44 GMT+0000 (Coordinated Universal Time)
 cuid: cmerumfrn000802l51ie8gpgm
 permalink: /ai-wechat-generator/index.html
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756023217092/0602f787-9106-4b6e-8c4b-87334d12392e.png
+cover: https://blog.oss.200011.net/11ty/20259/1757579181320-0602f787-9106-4b6e-8c4b-87334d12392e.png
 tags: ['ai', 'wechat', 'deepseek']
 
 ---
