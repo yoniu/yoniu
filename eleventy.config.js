@@ -13,6 +13,21 @@ const md = new MarkdownIt({
   linkify: true,
 }).use(markdownItAttrs);
 
+/**
+ * 匹配 <Video src="..."/>
+ */
+md.renderer.rules.html_block = (tokens, idx) => {
+  const content = tokens[idx].content.trim();
+
+  const match = content.match(/<Video\s+src="([^"]+)"\s*\/?>/i);
+  if (match) {
+    const src = match[1];
+    return `<iframe class="w-full aspect-video rounded overflow-hidden" src="${src}" frameborder="0" allowfullscreen></iframe>`;
+  }
+
+  return content;
+};
+
 export default async function(eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
 	eleventyConfig.setOutputDirectory("dist");
