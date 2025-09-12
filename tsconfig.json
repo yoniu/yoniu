@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                     // Node.js 支持的新特性
+    "module": "ESNext",                     // ESM
+    "moduleResolution": "NodeNext",         // Node ESM 必须
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./scripts/dist",                     // 编译输出目录
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": false,
+    "allowJs": true,
+    "checkJs": false,
+    "noImplicitAny": false
+  },
+  "include": ["scripts/ai/**/*"],
+  "exclude": ["node_modules"],
+  "ts-node": { "esm": true }
+}

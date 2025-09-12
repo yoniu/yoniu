@@ -9,7 +9,8 @@
     "dev:css": "unocss \"src/**/*.{html,md,11ty.jsx,jsx,js,ts,tsx}\" -o ./public/styles/unocss.css --watch",
     "dev": "npx @11ty/eleventy --watch --serve",
     "new": "node ./scripts/createArticle.js",
-    "upload": "node ./scripts/upload/index.js"
+    "upload": "node ./scripts/upload/index.js",
+    "ai:summary": "node --loader ts-node/esm scripts/ai/summary.ts"
   },
   "keywords": [],
   "author": "",
@@ -25,10 +26,15 @@
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "@types/node": "^24.3.1",
     "@unocss/cli": "^66.5.1",
     "dayjs": "^1.11.18",
     "markdown-it": "^14.1.0",
     "nanoid": "^5.1.5",
-    "tsx": "^4.20.5"
+    "openai": "^5.20.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
   }
 }

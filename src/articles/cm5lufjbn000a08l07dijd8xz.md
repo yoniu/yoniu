@@ -7,6 +7,7 @@ cuid: cm5lufjbn000a08l07dijd8xz
 permalink: /react-threejs2/index.html
 cover: https://blog.oss.200011.net/11ty/20259/1757579558877-f5ffc3a62f76ae51367e4e2131c3d80a.jpeg
 tags: ['reactjs', 'threejs']
+aiSummary: "本文深入探讨了React与ThreeJS结合实现MQTT实时数据展示的技术方案。主要介绍了四种文字展示方式：CSS2DRenderer、CSS3DRenderer、CanvasTexture和Text Geometry，重点分析了各自的优缺点。CSS2DRenderer和CSS3DRenderer虽然样式灵活但缺乏物体遮挡关系，而CanvasTexture通过纹理贴图方式解决了层级关系和物体旋转问题。文章详细展示了MQTT消息订阅的实现机制，包括Context封装、回调函数管理和实时数据更新流程，最终实现了物体上实时数据显示和移入显示的popup效果，为三维场景中的实时数据可视化提供了完整的解决方案。"
 
 ---
 
