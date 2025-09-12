@@ -5,16 +5,20 @@ import Header from '../components/Header.jsx';
 import dayjs from "dayjs";
 import Cover from '../components/Cover.jsx';
 import formatContent from '../utils/formatContent.js';
+import AISummary from '../components/AISummary.jsx';
 
 export default function ArticleLayout(data) {
 
-  const { content, title, datePublished, cover } = data;
+  const { content, title, datePublished, cover, aiSummary } = data;
   const time = dayjs(datePublished).format("YYYY-MM-DD HH:mm:ss");
 
   const description = formatContent(content);
 
   return (
     <HtmlDocument title={title} description={description}>
+      <style dangerouslySetInnerHTML={{ __html: `
+        body { background-color: #fff!important; }
+      ` }} />
       <div className="w-full max-w-5xl mx-auto space-y-4">
         <Header />
         <div className="border-gray-200 border-b-1 border-b-solid"></div>
@@ -25,6 +29,7 @@ export default function ArticleLayout(data) {
         }
         <h1 className="text-3xl font-bold mb-2!">{ title }</h1>
         <time className="text-gray-500 text-sm">{ time }</time>
+        { aiSummary && <AISummary summary={aiSummary} /> }
         <div className="markdown-body" dangerouslySetInnerHTML={{ __html: content }} />
         <div className="border-gray-200 border-b-1 border-b-solid"></div>
         <h2 className="text-2xl font-bold my-4!">评论</h2>

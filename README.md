@@ -39,10 +39,23 @@ export const alioss = {
   folder: '', // 上传到指定文件夹
   domain: '' // 外网访问域名
 }
+
+// AI 功能配置
+export const ai = {
+  apiKey: '',
+  baseURL: 'https://api.deepseek.com',
+  model: "deepseek-chat",
+}
 ```
 
 ### 创建文章
 
 ```bash
 pnpm new
+```
+
+### AI 文章总结 
+
+```bash
+pnpm ai:summary 文章ID
 ```

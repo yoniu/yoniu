@@ -1,5 +1,7 @@
 :root {
-  --themecolor: rgb(0,113,227);
+  --themecolor: rgb(0, 113, 227);
+
+  --border-radius: 8px;
 }
 
 .icon {
@@ -8,4 +10,73 @@
   vertical-align: -.15em;
   fill: currentColor;
   overflow: hidden;
+}
+
+.rainbowSlideAnimateContainer {
+  position: relative;
+  padding: 12px;
+  border-radius: var(--border-radius);
+  background-color: var(--block-background-color, #fff);
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.rainbowSlideAnimate {
+  position: relative;
+  padding: 1px;
+  border-radius: calc(var(--border-radius) + 2px);
+  overflow: hidden;
+}
+
+.rainbowSlideAnimate.animate:before {
+  animation: rainbowSlide .75s linear infinite;
+}
+
+.rainbowSlideAnimateBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(0);
+  z-index: 0;
+  transition: all 0.3s ease;
+}
+
+.rainbowSlideAnimateBg.animate {
+  filter: blur(5px);
+}
+
+.rainbowSlideAnimateBox {
+  position: relative;
+  border-radius: calc(var(--border-radius) + 2px);
+}
+
+.rainbowSlideAnimateBox:hover .rainbowSlideAnimateBg {
+  filter: blur(5px);
+}
+
+.rainbowSlideAnimate:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  background-size: 50% 100%;
+  z-index: 0;
+}
+
+.rainbowSlideAnimateTitle {
+  background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  background-size: 20% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* 让文字本身透明 */
+}
+
+@keyframes rainbowSlide {
+  to {
+    transform: translateX(-50%)
+  }
 }
