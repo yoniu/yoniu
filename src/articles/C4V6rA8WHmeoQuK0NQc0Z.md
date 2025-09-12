@@ -5,6 +5,7 @@ cuid: C4V6rA8WHmeoQuK0NQc0Z
 permalink: /2025-09-11/index.html
 cover: 
 tags: []
+aiSummary: "本文详细记录了作者从Hashnode博客迁移到EdgeOne Pages和CDN服务的完整过程。作者在试用EdgeOne时发现其速度快且免费，于是将域名解析从Cloudflare迁移到腾讯云权威解析，解决了CNAME展平问题。随后作者决定重写博客系统，选择使用11ty框架配合JSX、UnoCSS和React技术栈，实现了基于Git版本管理的文章系统，并开发了自动上传图片到阿里云OSS的脚本工具，最终完成了从托管平台到自建系统的完整迁移。"
 ---
 
 ## EdgeOne Pages
