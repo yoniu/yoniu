@@ -42,4 +42,6 @@
   - cuid: 文章唯一标识符，是字符串类型，例如 `"123456"`
   - aiSummary: 文章 AI 摘要，是字符串类型，例如 `"这是一篇关于 React 的文章"`
   - permalink: 文章永久链接，是字符串类型，例如 `"/articles/123456"`
+  - seoTitle: 文章 SEO 标题，是字符串类型，例如 `"React 文章"`
+  - seoDescription: 文章 SEO 描述，是字符串类型，例如 `"这是一篇关于 React 的文章"`
 - 文章内容必须使用 Markdown 格式编写。
