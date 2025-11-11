@@ -15,7 +15,7 @@ export default function Header({ currentPath = "/" }) {
 
   return (
     <header className="flex items-center gap-4 text-size-lg mb-4">
-      <h1 className="text-size-lg m-0" title={site.title}>
+      <h1 className="text-size-xl m-0" title={site.title}>
         <a href="/">{ site.title }</a>
       </h1>
       <h2 className="text-size-lg text-gray-500 font-thin m-0 hidden md:block">{ site.description }</h2>
