@@ -8,7 +8,7 @@ import Sticky from "./includes/components/Sticky.jsx";
 
 export default function Index(data) {
 
-  const { collections } = data;
+  const { collections, page } = data;
 
   const stickyPost = collections.sticky[0]
 
@@ -20,7 +20,7 @@ export default function Index(data) {
   return (
     <HtmlDocument>
       <App>
-        <Header />
+        <Header currentPath={page?.url} />
         {stickyPost && <Sticky post={stickyPost} />}
         <PostList posts={posts} />
       </App>

@@ -9,7 +9,7 @@ import AISummary from '../components/AISummary.jsx';
 
 export default function ArticleLayout(data) {
 
-  const { content, title, datePublished, cover, aiSummary } = data;
+  const { content, title, datePublished, cover, aiSummary, page } = data;
   const time = dayjs(datePublished).format("YYYY-MM-DD HH:mm:ss");
 
   const description = formatContent(content);
@@ -20,7 +20,7 @@ export default function ArticleLayout(data) {
         body { background-color: #fff!important; }
       ` }} />
       <div className="w-full max-w-5xl mx-auto space-y-4">
-        <Header />
+        <Header currentPath={page?.url} />
         <div className="border-gray-200 border-b-1 border-b-solid"></div>
         {
           cover && (
