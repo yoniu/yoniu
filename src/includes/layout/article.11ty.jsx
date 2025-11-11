@@ -9,13 +9,24 @@ import AISummary from '../components/AISummary.jsx';
 
 export default function ArticleLayout(data) {
 
-  const { content, title, datePublished, cover, aiSummary, page } = data;
+  const {
+    content,
+    title,
+    seoTitle,
+    seoDescription,
+    datePublished,
+    cover,
+    aiSummary,
+    page
+  } = data;
   const time = dayjs(datePublished).format("YYYY-MM-DD HH:mm:ss");
 
   const description = formatContent(content);
+  const metaTitle = seoTitle || title;
+  const metaDescription = seoDescription || description;
 
   return (
-    <HtmlDocument title={title} description={description}>
+    <HtmlDocument title={metaTitle} description={metaDescription}>
       <style dangerouslySetInnerHTML={{ __html: `
         body { background-color: #fff!important; }
       ` }} />

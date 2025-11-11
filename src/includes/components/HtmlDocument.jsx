@@ -2,13 +2,26 @@ import site from '../config/site';
 import React from "react";
 
 
-export default function HtmlDocument({ children, title = site.title, description = site.description }) {
+export default function HtmlDocument({
+  children,
+  title = site.title,
+  description = site.description,
+}) {
+  const metaTitle = title || site.title;
+  const metaDescription = description || site.description;
+
   return (
     <html lang="zh-CN">
       <head>
         <meta charSet="UTF-8" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>{metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+        <meta property="og:site_name" content={site.title} />
+        <meta property="og:title" content={metaTitle} />
+        <meta property="og:description" content={metaDescription} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metaTitle} />
+        <meta name="twitter:description" content={metaDescription} />
         <meta name="generator" content="Yoniu Blog V5.0.0" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/images/BuFH5H_rJ.jpg" />
