@@ -38,6 +38,11 @@ const mediaHandler = createMediaHandler({
   cdnUrl: process.env.S3_CDN || ''
 })
 
+router.use('/s3/media', (req, res) => {
+  req.url = req.originalUrl
+  return mediaHandler(req, res)
+})
+
 router.get('/s3/media', mediaHandler)
 
 router.post('/s3/media', mediaHandler)
