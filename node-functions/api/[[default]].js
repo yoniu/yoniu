@@ -35,16 +35,16 @@ const mediaHandler = createMediaHandler({
   cdnUrl: process.env.S3_CDN || ''
 })
 
-router.get('/cloudinary/media', mediaHandler)
+router.get('/s3/media', mediaHandler)
 
-router.post('/cloudinary/media', mediaHandler)
+router.post('/s3/media', mediaHandler)
 
-router.delete('/cloudinary/media/:media', (req, res) => {
+router.delete('/s3/media/:media', (req, res) => {
   req.query.media = ['media', req.params.media]
   return mediaHandler(req, res)
 })
 
-app.use('/api/', router)
+app.use('/', router)
 
 // 导出处理函数
 export default app;
