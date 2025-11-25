@@ -55,11 +55,17 @@ export default defineConfig({
           },
           {
             type: "string",
+            name: "cuid",
+            label: "CUID 唯一标识",
+            required: true,
+          },
+          {
+            type: "string",
             name: "permalink",
             label: "永久链接",
           },
           {
-            type: "string",
+            type: "image",
             name: "cover",
             label: "封面 URL",
           },
