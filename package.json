@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "build:css": "unocss \"src/**/*.{html,md,11ty.jsx,jsx,js,ts,tsx}\" -o ./public/styles/unocss.css",
-    "build": "npm run build:css && npx @11ty/eleventy",
+    "build": "tinacms build && npm run build:css && npx @11ty/eleventy",
     "dev:css": "unocss \"src/**/*.{html,md,11ty.jsx,jsx,js,ts,tsx}\" -o ./public/styles/unocss.css --watch",
-    "dev": "npx @11ty/eleventy --watch --serve",
+    "dev": "tinacms dev -c \"npx @11ty/eleventy --watch --serve\"",
     "new": "node ./scripts/createArticle.js",
     "upload": "node ./scripts/upload/index.js",
     "ai:summary": "node --loader ts-node/esm scripts/ai/summary.ts"
@@ -22,11 +22,13 @@
     "ali-oss": "^6.23.0",
     "markdown-it-attrs": "^4.3.1",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "tinacms": "^2.10.0"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@modelcontextprotocol/sdk": "^1.18.0",
+    "@tinacms/cli": "^1.12.5",
     "@types/node": "^24.3.1",
     "@unocss/cli": "^66.5.1",
     "dayjs": "^1.11.18",
