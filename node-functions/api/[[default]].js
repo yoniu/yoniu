@@ -1,10 +1,13 @@
 import express, { Router } from "express";
 import { isAuthorized } from '@tinacms/auth'
 import { createMediaHandler } from 'next-tinacms-s3/dist/handlers'
+import bodyParser from 'body-parser'
 
 const app = express();
 
 const router = Router()
+
+app.use(bodyParser.json());
 
 const mediaHandler = createMediaHandler({
   config: {
