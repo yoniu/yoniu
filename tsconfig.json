@@ -13,6 +13,7 @@
     "allowImportingTsExtensions": false,
     "allowJs": true,
     "checkJs": false,
+    "jsx": "react-jsx",
     "noImplicitAny": false
   },
   "include": ["scripts/ai/**/*"],
